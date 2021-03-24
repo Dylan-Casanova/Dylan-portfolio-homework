@@ -1,0 +1,185 @@
+:root{
+    --gunmetal: #022B3A;
+    --seaweed: #1F7A8C;
+    --blue: #BFDBF7; 
+    --lavendar: #E1E5F2;
+    --white:#ffff;   
+}
+  
+*{
+    background-color:var(--gunmetal);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--white);
+}
+header{
+    padding: 20px;
+    color:var(--white);
+    background-color:var(--seaweed);
+    display: block;
+    height: fit-content;
+}
+h1{
+    display: inline-block;
+    width: fit-content;
+    background-color: transparent;
+    
+}
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+    background-color: transparent;
+    
+}
+nav{
+    display: block;
+    
+}
+nav a {
+    
+    display: flex;
+    font-size: larger;
+    width: fit-content;
+    padding: 6px;
+    background-color: var(--seaweed);
+    
+}
+ul{
+    display: flex;
+    flex:row;
+    height: fit-content;
+    
+}
+.subtitle img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+figure div h2{
+    height: inherit;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    text-align: right;
+    padding: 15px;
+}
+.Aboutme{
+    margin-left: 5%;
+    max-width: 95%;
+    display: flex;
+    position: relative;
+    line-height: 27px;
+}
+.Aboutme h1 {
+    padding-right: 20px;
+    margin-right: 3%;
+    border-right:var(--seaweed) 3px solid;
+    text-align: right;
+    
+}
+.Aboutme p {
+    width: 95%;
+    height: 100%;
+    min-width: 200px;
+}
+section{
+    padding-top: 20px;
+}
+
+.work{
+    margin-left: 5%;
+    max-width: 95%;
+    display: flex;
+    position: relative;
+    line-height: 27px;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.work h1{
+    border-right: var(--seaweed) 3px solid;
+    padding-right: 20px;
+    margin-right: 3%;
+    text-align: right; 
+}
+.workbox{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .contactMe{
+    margin-left: 5%;
+    max-width: 95%;
+    display: flex;
+    position: relative;
+    line-height: 27px;
+ }
+
+ 
+ .contactMe h1{
+    padding-right:20px;
+    margin-right: 3%;
+    border-right:var(--seaweed) 3px solid;
+    text-align:right;
+}
+.contactMe p {
+    width: 95%;
+    height: 100%;
+    min-width: 200px;
+}
+.contactMe{
+    margin-left: 5%;
+    display: flex;
+    position: relative;
+    padding-bottom: 20px;
+}
+.contactMe nav{
+    display: flex;
+    height: 100%;
+    width: 85%;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.contactMe a{
+    background-color: var(--gunmetal);
+}
+footer{
+    padding-top: 10px;
+    text-align: center;
+    background-color: var(--seaweed);
+    height:30px
+}
+ 
+}
+#flexthis div {
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; */
+    margin-left: 5%;;
+    max-width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2 figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.box2 img{
+    width: auto;
+    height: 100px;
+    padding: 15px;
+}
+.test{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
